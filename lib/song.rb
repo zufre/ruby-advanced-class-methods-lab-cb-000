@@ -46,7 +46,7 @@
     parts = filename.split(" - ")
     artist_name = parts[0]
 
-    song_name = parts = filename.split(" - ")[1].split(".")[0]
+    song_name = parts[1].split(".")[0]
     song = self.create
     song.name = song_name
     song.artist_name = artist_name
